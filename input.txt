@@ -1,0 +1,73 @@
+Team Meeting Announcement
+=========================
+
+Hello everyone!
+
+Our next team meeting is scheduled for:
+Date: Tomorrow
+Time: 2:30 PM or 14:30 (for those who prefer 24-hour format)
+Alternative times: 9:00 AM, 11:45, 3:15 PM
+
+Contact Information:
+--------------------
+- John Smith
+  Email: john.smith@example.com
+  Phone: (555) 123-4567
+
+- Sarah Jones
+  Email: sarah.jones@company.co.uk
+  Phone: 555-987-6543
+
+- Mike Davis
+  Email: mike.davis@testmail.org
+  Phone: 555.111.2222
+
+- Emily Brown
+  Email: emily@sample-domain.com
+  Phone: (555) 444-3333
+
+Resources:
+----------
+Meeting agenda: https://www.example.com/agenda
+Presentation: https://docs.google.com/presentation/123
+Company site: http://company-website.org/resources
+Project repo: https://github.com/project/repo
+
+Social Media:
+-------------
+Please use these hashtags when posting about the event:
+#TechConference2024 #Innovation #Python #DataScience #AI_ML
+
+Follow our updates: #CompanyNews #TeamWork
+
+
+TESTING SECTION - Invalid Examples
+====================================
+(These should be rejected by the validation)
+
+Bad emails:
+- notanemail@
+- user@@domain.com
+- toolongemailaddressthatexceedsonehundredcharacterslimitwhichshouldnotbeacceptedbytheprogramvalidation@example.com
+
+Bad phone numbers:
+- 123-456 (too short)
+- 555-123-4567-8910 (too long)
+- (555) CALL-NOW (has letters)
+
+Bad times:
+- 25:99 (invalid hour and minute)
+- 13:00 PM (doesn't make sense)
+- 99:99 (completely invalid)
+
+Bad hashtags:
+- # (just symbol)
+- #123 (only numbers)
+- #a (too short? debatable)
+
+Valid items that should pass:
+- test@valid-domain.com
+- (555) 999-8888
+- 11:30 AM
+- https://valid-site.com
+- #ValidHashtag
